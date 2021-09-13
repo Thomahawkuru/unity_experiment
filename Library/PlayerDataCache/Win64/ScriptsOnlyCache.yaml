@@ -1,0 +1,1630 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp-firstpass.dll:
+    - Leap.Unity.HandEnableDisable
+    - Leap.Unity.HandModelManager
+    - Leap.Unity.LeapXRServiceProvider
+    - Leap.Unity.RiggedFinger
+    - Leap.Unity.RiggedHand
+    Assembly-CSharp.dll:
+    - ExperimentManager
+    - FollowTransform
+    - LevelNumberSubscriber
+    - Logger
+    - MolePositionSubscriber
+    - RosSharp.RosBridgeClient.ImageSubscriber
+    - RosSharp.RosBridgeClient.PoscmdPublisher
+    - RosSharp.RosBridgeClient.RosConnector
+    - TrailNumberSubscriber
+    - TransformSubscriber
+    - Varjo.VarjoManager
+    - VarjoExample.RequestCalibration
+    - VarjoExample.VarjoMixedReality
+    - WhackCheckSubscriber
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+  sceneClasses:
+    Assets/Scenes/Calibration.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11374}
+    - Class: 114
+      Script: {instanceID: 11684}
+    - Class: 114
+      Script: {instanceID: 11712}
+    - Class: 114
+      Script: {instanceID: 12398}
+    - Class: 114
+      Script: {instanceID: 12438}
+    - Class: 114
+      Script: {instanceID: 12694}
+    - Class: 114
+      Script: {instanceID: 12974}
+    - Class: 114
+      Script: {instanceID: 13624}
+    - Class: 114
+      Script: {instanceID: 13712}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    Assets/Scenes/Scene 1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11374}
+    - Class: 114
+      Script: {instanceID: 11684}
+    - Class: 114
+      Script: {instanceID: 11712}
+    - Class: 114
+      Script: {instanceID: 12016}
+    - Class: 114
+      Script: {instanceID: 12398}
+    - Class: 114
+      Script: {instanceID: 12438}
+    - Class: 114
+      Script: {instanceID: 12558}
+    - Class: 114
+      Script: {instanceID: 12586}
+    - Class: 114
+      Script: {instanceID: 12694}
+    - Class: 114
+      Script: {instanceID: 12908}
+    - Class: 114
+      Script: {instanceID: 12974}
+    - Class: 114
+      Script: {instanceID: 13116}
+    - Class: 114
+      Script: {instanceID: 13624}
+    - Class: 114
+      Script: {instanceID: 13712}
+    - Class: 114
+      Script: {instanceID: 13754}
+    - Class: 114
+      Script: {instanceID: 13914}
+    - Class: 114
+      Script: {instanceID: 14042}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    Assets/Scenes/Scene 2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11374}
+    - Class: 114
+      Script: {instanceID: 11684}
+    - Class: 114
+      Script: {instanceID: 11712}
+    - Class: 114
+      Script: {instanceID: 12016}
+    - Class: 114
+      Script: {instanceID: 12044}
+    - Class: 114
+      Script: {instanceID: 12398}
+    - Class: 114
+      Script: {instanceID: 12438}
+    - Class: 114
+      Script: {instanceID: 12558}
+    - Class: 114
+      Script: {instanceID: 12586}
+    - Class: 114
+      Script: {instanceID: 12694}
+    - Class: 114
+      Script: {instanceID: 12908}
+    - Class: 114
+      Script: {instanceID: 12974}
+    - Class: 114
+      Script: {instanceID: 13116}
+    - Class: 114
+      Script: {instanceID: 13624}
+    - Class: 114
+      Script: {instanceID: 13712}
+    - Class: 114
+      Script: {instanceID: 13754}
+    - Class: 114
+      Script: {instanceID: 13914}
+    - Class: 114
+      Script: {instanceID: 14042}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    Assets/Scenes/Startup.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 109
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11684}
+    - Class: 114
+      Script: {instanceID: 12974}
+    - Class: 114
+      Script: {instanceID: 13712}
+    - Class: 114
+      Script: {instanceID: 13956}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    Assets/Scenes/The end.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11684}
+    - Class: 114
+      Script: {instanceID: 12974}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 3a80da985e1a1dfd8bebd5a7f9b8da1a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: JointStatePatcher
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc4346a71a8df53a6b106f68ef3a190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: c42672c997f8be6b1aa86a927ebea785
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: a25ad252d1d62127b0f5c6d17181f1c2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: LaserScanVisualizerLines
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 626925ef558787b2d85c809198164d19
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 83dad5d3b311cc37500c9a51e45acefd
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: ConnectionMonitor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VarjoMixedRealityCameraSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: HandEnableDisable
+  - hash:
+      serializedVersion: 2
+      Hash: 60ccc40e497f1e4098bcfe124066e0f8
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity.Animation
+    className: TransformTweenBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 44ce80fdc493a14644ce602a248aa3e7
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: SkeletalFinger
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 5503f57feab25077a1e1b713b64d36fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.Urdf
+    className: UrdfJointPrismatic
+  - hash:
+      serializedVersion: 2
+      Hash: ae6fb7062c1fed53b7d17cbad2230815
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: PoscmdPublisher2
+  - hash:
+      serializedVersion: 2
+      Hash: 229b8640d882292e90f94e00eeebe282
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp
+    className: HingeJointLimitsManager
+  - hash:
+      serializedVersion: 2
+      Hash: a6cd18864727996bb6a22dc4a8659004
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VarjoExample
+    className: VarjoMultiClient
+  - hash:
+      serializedVersion: 2
+      Hash: 477e0cfb9c0ba2eae691de22252b435e
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: PinchDetector
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 57abaf4cfc453fd4b492d6258ee7b571
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VarjoExample
+    className: VarjoFreeMovement
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e86a95e85abe628bbaf9fcf84f853b8d
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: Detector
+  - hash:
+      serializedVersion: 2
+      Hash: aeb62f729c52c814dec86c47dcac1471
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 499fd23433e68e265d153aa6b95d0047
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 145551d34f1a016369f6f322f3a4fb6d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.Urdf
+    className: UrdfCollision
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 8f2f1d30714d893174eb365f1e8fe726
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: GetParamServiceProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 870bdfc9028a850b6e40ea17db08772b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: LaserScanSubscriber
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: LaserScanWriter
+  - hash:
+      serializedVersion: 2
+      Hash: 426f1038b141e06cda81d956eb06c906
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Varjo
+    className: VarjoLayer
+  - hash:
+      serializedVersion: 2
+      Hash: 234235b9fb07320d11497e08a726cc56
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: e84a78bde27df4b3d1f9d38023fb8ffd
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity.Splines
+    className: BSpline
+  - hash:
+      serializedVersion: 2
+      Hash: d6e0105bdbf7d4e884f30635b74be1fa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VarjoDistortedColorStreamView
+  - hash:
+      serializedVersion: 2
+      Hash: b300185396ca1e0231bd4f070140561c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: PoseStampedPublisher
+  - hash:
+      serializedVersion: 2
+      Hash: b02376140294e416e53553f53a56e536
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: TransPublisher
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 80f8a50496b357c5d1bb9149cc72d487
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity.Attachments
+    className: AttachmentHandEnableDisable
+  - hash:
+      serializedVersion: 2
+      Hash: 8dd05eb4ca2d821ca9042135b315c5e6
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity.Examples
+    className: ProjectionPostProcessProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 6f1fe5c5897dadb2c3b9c33efbef57c1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VelReader3
+  - hash:
+      serializedVersion: 2
+      Hash: dacd6e558fe23f80d58cccf17f84c259
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Varjo
+    className: VarjoManager
+  - hash:
+      serializedVersion: 2
+      Hash: 856e01d78b7653f4375afa2ab1a073b8
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: RiggedHand
+  - hash:
+      serializedVersion: 2
+      Hash: 85e89b51b107daea862016231064d6c3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.Urdf
+    className: UrdfRobot
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c86ebff5bfbb53d32cf41f3540c65659
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity.Geometry
+    className: GeometryTest_SegmentRectIntersection
+  - hash:
+      serializedVersion: 2
+      Hash: ffd17cc0ff6f33c61e14cd8788169a43
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity.RuntimeGizmos
+    className: RuntimeGizmoManager
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 91ff9b9f44aa38a4d590f4cc05a24650
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: LeapTestProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VarjoExample
+    className: VarjoEvents
+  - hash:
+      serializedVersion: 2
+      Hash: af674031a8db313b88d59a4998db6370
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity.Space
+    className: LeapSphericalSpace
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: JointStateReader
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 1f566983e24093e2daf15e0ecf03a38b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: VelcmdPublisher
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: d941ab6dd93d37ffdf2277f2ea2375a0
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 2a9cf45e023dbdb7c563bf2a26dbeb0b
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: PalmDirectionDetector
+  - hash:
+      serializedVersion: 2
+      Hash: e79a49047213b2d1c2b71c36e204c3fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: VelPublisher3
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 706a128d2a5bfffe6108aed7fa12fa10
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: CycleHandPairs
+  - hash:
+      serializedVersion: 2
+      Hash: badab11463cbf6c8992668078e3eec3d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VarjoExample
+    className: VarjoMixedRealityStreams
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: b03895efa718c4f1397971df29378f60
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WhackCheckSubscriber
+  - hash:
+      serializedVersion: 2
+      Hash: f029318299c5a94aae63e9bb13edd224
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: ProximityDetector
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 825118decf5c7adaf714053cca69efc8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FollowTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 04c29bbd0a0a20e355ef6ef9e76db036
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: FrameRateControls
+  - hash:
+      serializedVersion: 2
+      Hash: 5c15f66853a446c1995b5508c9c7fa28
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.Urdf
+    className: UrdfLink
+  - hash:
+      serializedVersion: 2
+      Hash: 6f1fe5c5897dadb2c3b9c33efbef57c1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VelReader
+  - hash:
+      serializedVersion: 2
+      Hash: b07115b5a5c1f9702cd1ebb2b6dff795
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: VelPublisher
+  - hash:
+      serializedVersion: 2
+      Hash: 82827952c5cb10d652bddcbc54600238
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity.Attachments
+    className: AttachmentPointBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b8a5e8091ab0b8861d2add371082c5e0
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0dc384d9e42d5f1b22169cab94a56928
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: LeapImageRetriever
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc90e648ac06f43bdd31ac9fa8f4579
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: a25ad252d1d62127b0f5c6d17181f1c2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: LaserScanVisualizerSpheres
+  - hash:
+      serializedVersion: 2
+      Hash: be54fe3c504eb4354238744417ca7c2d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: TwistSubscriber
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.Urdf
+    className: UrdfCollisions
+  - hash:
+      serializedVersion: 2
+      Hash: ac7ab2ea4c8b32e359b107a2eb0c8549
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: LaserScanPublisher
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.Urdf
+    className: UrdfVisuals
+  - hash:
+      serializedVersion: 2
+      Hash: 8434aaf820fcdbefb642fdf8f8eac8f4
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity.Attachments
+    className: AttachmentHands
+  - hash:
+      serializedVersion: 2
+      Hash: 4f07d984a781b6b2f93aab25595d68d7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: OdometrySubscriber
+  - hash:
+      serializedVersion: 2
+      Hash: 440049e800edd26bb09131703a0c21a8
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: FpsLabel
+  - hash:
+      serializedVersion: 2
+      Hash: aa73beaac03cc87923a1a0eaef4666ff
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity.Space
+    className: LeapSpaceAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: bedfb308e1eabbf9055083d4576e740f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity.Examples
+    className: InertiaPostProcessProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: JointStateWriter
+  - hash:
+      serializedVersion: 2
+      Hash: 0809d8fe82dad57a2f643da1e42fa844
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VarjoExample
+    className: RequestCalibration
+  - hash:
+      serializedVersion: 2
+      Hash: 922f03790cbae1a4edd07ab55bd42f23
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StartExperiment
+  - hash:
+      serializedVersion: 2
+      Hash: dce761e73f3059c170256a3093bb0682
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: JoyAxisJointTransformWriter
+  - hash:
+      serializedVersion: 2
+      Hash: b3ab2106268377ffe25dd18ac23dca28
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Asset
+  - hash:
+      serializedVersion: 2
+      Hash: 02896bd92bb5fcbb908fd99858fc8931
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: EnableDepthBuffer
+  - hash:
+      serializedVersion: 2
+      Hash: b7d1817979b42aa3b599ba010575506b
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: RiggedFinger
+  - hash:
+      serializedVersion: 2
+      Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: HandDrop
+  - hash:
+      serializedVersion: 2
+      Hash: 78e914a2ecc19d60c0dbd4ee4e7b7470
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: RigidHand
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 4d4b96d44df54d5ee0b82db437a4e854
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: LeapHandsAutoRig
+  - hash:
+      serializedVersion: 2
+      Hash: 5503f57feab25077a1e1b713b64d36fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.Urdf
+    className: UrdfJointRevolute
+  - hash:
+      serializedVersion: 2
+      Hash: cf7b124621e2b8a7bdb5d0dcfddd3241
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Varjo
+    className: VarjoViewCamera
+  - hash:
+      serializedVersion: 2
+      Hash: fe432490fb064db97065e0fbbb806cd7
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity.Animation.Examples
+    className: TransformPoseSpline
+  - hash:
+      serializedVersion: 2
+      Hash: 09d6de3e088391a7cdb0ae4d2cdcfb65
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: KeyEnableGameObjects
+  - hash:
+      serializedVersion: 2
+      Hash: 67c6133c6af2443af40454cecd99aad6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: ImageSubscriber
+  - hash:
+      serializedVersion: 2
+      Hash: 5d04fe30d4979959b2f1410a0ae8813f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: LeapEyeDislocator
+  - hash:
+      serializedVersion: 2
+      Hash: 8b5034d66fb332d30e032ee91c0ab375
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VarjoMixedRealityCameraSettingsUI
+  - hash:
+      serializedVersion: 2
+      Hash: 0083cb008925d54a6c989e91c154707d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.Urdf
+    className: UrdfPlugin
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: ca6a6b59a4c67f4cc821953797bab188
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: PoscmdPublisher
+  - hash:
+      serializedVersion: 2
+      Hash: 9bda1592f7e4f75edc7e6efd87cfd069
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity.RuntimeGizmos
+    className: RuntimeColliderGizmos
+  - hash:
+      serializedVersion: 2
+      Hash: cfdb76b0a25130bf60824bc7a7448285
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.Urdf
+    className: UrdfVisual
+  - hash:
+      serializedVersion: 2
+      Hash: 2908deb51e3affdb0464f3f9b7bacb67
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient.Actionlib
+    className: UnityFibonacciActionClient
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 4fa0a199eb0fa26156843a40f7581ea9
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: DebugHand
+  - hash:
+      serializedVersion: 2
+      Hash: 17e09f33c82ba1cb84ce318494d55089
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: FingerDirectionDetector
+  - hash:
+      serializedVersion: 2
+      Hash: c7a356f5d8447d94cb3253c202255a6a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TransReader
+  - hash:
+      serializedVersion: 2
+      Hash: 2083c1f5a7aa33ac9529de30ce2a34b8
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: HandModelManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity.RuntimeGizmos
+    className: RuntimeGizmoToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: f84d945e5e1ca985698660fc26e9657f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 1f4502a60077a829703e85b1a86eab4d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VarjoDisableObjectsWhenHidden
+  - hash:
+      serializedVersion: 2
+      Hash: cf9629c79efd3deebc609c9132175e02
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: LaserScanVisualizerMesh
+  - hash:
+      serializedVersion: 2
+      Hash: b44b78c145d72011b8036752d4c3a0ce
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VarjoExample
+    className: VarjoEventListener
+  - hash:
+      serializedVersion: 2
+      Hash: f5ac396f2b098b84c0d0cbf0ce2f2f1e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient.Actionlib
+    className: UnityFibonacciActionSever
+  - hash:
+      serializedVersion: 2
+      Hash: 7aee04316cbd5b0a33c101c6c7c67c52
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: XRHeightOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 8a1cc88a1b93cb83cb6597e20c3e9748
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: JoySubscriber
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ColliderCheck
+  - hash:
+      serializedVersion: 2
+      Hash: 9a18fefa1f895e28ab6e3bbfadc38218
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: CapsuleHand
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.Urdf
+    className: UrdfPlugins
+  - hash:
+      serializedVersion: 2
+      Hash: b688a8ec4a2d474dfdb5cafe7078b488
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TransformSubscriber
+  - hash:
+      serializedVersion: 2
+      Hash: 05f3d0719df21c6c8a59fc9b829222a1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: VelPublisher2
+  - hash:
+      serializedVersion: 2
+      Hash: 6f1fe5c5897dadb2c3b9c33efbef57c1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VelReader2
+  - hash:
+      serializedVersion: 2
+      Hash: 897ad14ea070f7d25089842678ad2266
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VarjoExample
+    className: VarjoMixedReality
+  - hash:
+      serializedVersion: 2
+      Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: c9a8b80298a116835b51ba1cf9284367
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity.Animation.Internal
+    className: TweenRunner
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 35a9693c388776aaf487636491a20f11
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: fcaabb0849b0acd97962bad6291ac054
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VarjoExample
+    className: VarjoGazeLog
+  - hash:
+      serializedVersion: 2
+      Hash: e1300922cc039f41ab46a47f4cb05898
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 02237aa49c2beff594b12656405dd77d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: RosConnector
+  - hash:
+      serializedVersion: 2
+      Hash: d965d9a4cba142a3e0d93432cea3f34f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: JoyAxisInputPasser
+  - hash:
+      serializedVersion: 2
+      Hash: 4f07d984a781b6b2f93aab25595d68d7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: PoseStampedSubscriber
+  - hash:
+      serializedVersion: 2
+      Hash: 5503f57feab25077a1e1b713b64d36fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.Urdf
+    className: UrdfJointFixed
+  - hash:
+      serializedVersion: 2
+      Hash: dce761e73f3059c170256a3093bb0682
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: JoyAxisJointMotorWriter
+  - hash:
+      serializedVersion: 2
+      Hash: c1933cc0a2f4ff6eb13333347497beb3
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 4744fae82304fe339d6ea1778621170e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: JointStatePublisher
+  - hash:
+      serializedVersion: 2
+      Hash: dcf6e74abf9f541b63b92bee9ab62a49
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: LeapServiceProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 6e18c6edd86e27ef3f30cb1b71282adf
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: CenterTransformOnCam
+  - hash:
+      serializedVersion: 2
+      Hash: 40c9359758686abcd0b6fd7064d6581c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: ImagePublisher
+  - hash:
+      serializedVersion: 2
+      Hash: 2327f9f13a5fb7893b784a290514a506
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: JointStateSubscriber
+  - hash:
+      serializedVersion: 2
+      Hash: 941515e33a55f1308788e79ef3be405c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: LaserScanReader
+  - hash:
+      serializedVersion: 2
+      Hash: af674031a8db313b88d59a4998db6370
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity.Space
+    className: LeapCylindricalSpace
+  - hash:
+      serializedVersion: 2
+      Hash: 6bec9ca884c100fa2bc14b84d0f4f804
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: DisconnectionNotice
+  - hash:
+      serializedVersion: 2
+      Hash: 5503f57feab25077a1e1b713b64d36fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.Urdf
+    className: UrdfJointContinuous
+  - hash:
+      serializedVersion: 2
+      Hash: 8001a5f7502aab37e42206da015e6914
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71023ea1efc469c53dbfb0d52f1e5c1e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.Urdf
+    className: UrdfInertial
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 925d2dc71a02a21f0006656674932b07
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VarjoExample
+    className: VarjoGazeRay
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: c88c4199b288356ec3eb2f0d85abc619
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: JoyButtonReader
+  - hash:
+      serializedVersion: 2
+      Hash: 54e2ce3989ec345bbf6c7589f78e1616
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: PolyHand
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: HandReader
+  - hash:
+      serializedVersion: 2
+      Hash: a38fb367899f6b2963bf7f1c6074a24d
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: MinimalHand
+  - hash:
+      serializedVersion: 2
+      Hash: 6c081c46e59d89aa6e2b50b5caaf7b93
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: ExtendedFingerDetector
+  - hash:
+      serializedVersion: 2
+      Hash: 5503f57feab25077a1e1b713b64d36fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.Urdf
+    className: UrdfJointPlanar
+  - hash:
+      serializedVersion: 2
+      Hash: f377af1ab8f6e80ca97d7871feda549b
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: Comment
+  - hash:
+      serializedVersion: 2
+      Hash: f95d0712e54d43dc4f20073b75da406d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Logger
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 54e2ce3989ec345bbf6c7589f78e1616
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: SkeletalHand
+  - hash:
+      serializedVersion: 2
+      Hash: 4cfcc3e789c5a564ba1afbcf8bd21bf0
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: RigidFinger
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 8ca141eef08a9a80e9b67145b99cf271
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: GripPublisher
+  - hash:
+      serializedVersion: 2
+      Hash: 9aaf3b74885f48f2e0acb6f867858dad
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity.Attachments
+    className: AttachmentHand
+  - hash:
+      serializedVersion: 2
+      Hash: 5503f57feab25077a1e1b713b64d36fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.Urdf
+    className: UrdfJointFloating
+  - hash:
+      serializedVersion: 2
+      Hash: 2e1c47ed851d6e1f5c937689620e81c6
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: LeapXRServiceProvider
+  - hash:
+      serializedVersion: 2
+      Hash: c1eb3b8f916a0707cb160270e4271520
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VarjoExample
+    className: VarjoTrackingReset
+  - hash:
+      serializedVersion: 2
+      Hash: b03895efa718c4f1397971df29378f60
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TrailNumberSubscriber
+  - hash:
+      serializedVersion: 2
+      Hash: c88c4199b288356ec3eb2f0d85abc619
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: JoyAxisReader
+  - hash:
+      serializedVersion: 2
+      Hash: 21d73eda81c18eacd2c91ad5dfaf2e32
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 8b01322f8eb5b4a7844e42bff6f66e5b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 4d77cd8e97188da6309f9e44da29db19
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: DetectorLogicGate
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: b03895efa718c4f1397971df29378f60
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MolePositionSubscriber
+  - hash:
+      serializedVersion: 2
+      Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 8649814970b42d345b89944b862453cc
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 9d30893e969eb98f3869d71be6b8a9d4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: TwistPublisher
+  - hash:
+      serializedVersion: 2
+      Hash: 92185ad440354717459ed995dd53225d
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: KeyEnableBehaviors
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 256bee10772d5b5129dfbb23f40d72a1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp
+    className: PrismaticJointLimitsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 4ef0f7d42cdb13479386e1f049c315aa
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 2aeeec1b1a144c469cd2d37776bc2315
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 789121e8cfa4e1d084d8fb6838665c16
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExperimentManager
+  - hash:
+      serializedVersion: 2
+      Hash: f7768d7b70c4993149784fc464b48186
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity.Splines
+    className: TransformCatmullRomSpline
+  - hash:
+      serializedVersion: 2
+      Hash: 64f009ec941ae3b087491b71c5431e75
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: StationaryTestLeapProvider
+  - hash:
+      serializedVersion: 2
+      Hash: a89b374fa8a5b5694dac5665c420a74e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: VelPublisher4
+  - hash:
+      serializedVersion: 2
+      Hash: fb3b94f234641c0f044c4ae26a455808
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RosSharp.RosBridgeClient
+    className: JoyPublisher
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Webcam
+  - hash:
+      serializedVersion: 2
+      Hash: aa88ae22474df55295327e4ee99e5a24
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 7072231382eb3c4871b3dd75ad0227e1
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 0809d8fe82dad57a2f643da1e42fa844
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VarjoExample
+    className: VarjoGazeCalibrationRequest
+  - hash:
+      serializedVersion: 2
+      Hash: 6f1fe5c5897dadb2c3b9c33efbef57c1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PosReader
+  - hash:
+      serializedVersion: 2
+      Hash: b03895efa718c4f1397971df29378f60
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LevelNumberSubscriber
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 913b6fe66284d08532397944a340c25a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VarjoExample
+    className: VarjoGazeTarget
+  - hash:
+      serializedVersion: 2
+      Hash: ef2d4e9d59492b22f52c0343c2417144
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Leap.Unity
+    className: PolyFinger
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/Startup.unity
+  - Assets/Scenes/Calibration.unity
+  - Assets/Scenes/Scene 1.unity
+  - Assets/Scenes/Scene 2.unity
+  - Assets/Scenes/The end.unity
+  playerPath: C:/Users/thoma/Documents/Unity/Experiment2/build/Test 3.exe
