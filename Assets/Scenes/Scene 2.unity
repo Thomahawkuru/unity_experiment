@@ -1383,7 +1383,7 @@ GameObject:
   - component: {fileID: 1017946195}
   - component: {fileID: 1017946194}
   - component: {fileID: 1017946199}
-  - component: {fileID: 1017946189}
+  - component: {fileID: 1017946190}
   m_Layer: 0
   m_Name: RosConnector
   m_TagString: Untagged
@@ -1391,7 +1391,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1017946189
+--- !u!114 &1017946190
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1400,16 +1400,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1017946188}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3da83a75d1167e4fa1a95e27ac0b3e8, type: 3}
+  m_Script: {fileID: 11500000, guid: ad3add3381f41e64ea0034c9b58970e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Topic: /servo_server/delta_twist_cmds
-  Lpalm: {fileID: 562703567}
-  Rpalm: {fileID: 282447666}
+  Lhand: {fileID: 562703567}
+  Rhand: {fileID: 282447666}
   Screen: {fileID: 157632336}
   gain: 0.65
-  tracking: 0.3
   Kp: 10
+  Ki: 0
+  Kd: 0
+  tracking: 0.3
   offset: 0
   correction: 0.16
 --- !u!114 &1017946191

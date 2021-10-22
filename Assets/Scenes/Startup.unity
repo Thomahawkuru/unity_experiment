@@ -203,7 +203,7 @@ MonoBehaviour:
   _deviceOffsetMode: 1
   _deviceOffsetYAxis: 0.05
   _deviceOffsetZAxis: 0.14
-  _deviceTiltXAxis: 11
+  _deviceTiltXAxis: 24
   _deviceOrigin: {fileID: 0}
   _preCullCamera: {fileID: 0}
   _temporalWarpingMode: 0
@@ -352,7 +352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e634d2f58ad477468c29ca8138e681c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subjectID: 30
+  subjectID: 1
   Startup: Startup
   Calibration: Calibration
   Scene1: Scene 1

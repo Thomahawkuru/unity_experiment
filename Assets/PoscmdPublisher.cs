@@ -10,17 +10,18 @@ namespace RosSharp.RosBridgeClient
 {
     public class PoscmdPublisher : UnityPublisher<MessageTypes.Geometry.TwistStamped>
     {
+        // topic = /servo_server/delta_twist_cmds
         Controller controller;
-        public Transform Lpalm;
-        public Transform Rpalm;
+        public Transform Lpalm; //L_index_b
+        public Transform Rpalm; //R_index_b
         public GameObject Screen;
-        public float gain;
-        public float tracking;
-        public float Kp;
-        private float Ki;
-        private float Kd;
-        public float offset;
-        public float correction;
+        public float gain=0.65F;        
+        public float Kp=10F;
+        public float Ki=0F;
+        public float Kd=0F;
+        public float tracking; // 0.5 - 0.3
+        public float offset; // 0.4 - 0.16
+         public float correction; // 0.1 - 0.16
 
         private MessageTypes.Geometry.TwistStamped message;
         private bool Controlling;

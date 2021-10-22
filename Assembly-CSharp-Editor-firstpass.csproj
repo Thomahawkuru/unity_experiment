@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{ADF0D0A9-FDA2-538A-4270-46107BE5B57B}</ProjectGuid>
+    <ProjectGuid>{4C7F05D0-D432-A711-6562-792711E22C97}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
@@ -309,61 +309,61 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Google.IOSResolver_v1.2.122.0">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.122.0.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.122.0.dll</HintPath>
     </Reference>
     <Reference Include="Google.JarResolver_v1.2.122.0">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.122.0.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.122.0.dll</HintPath>
     </Reference>
     <Reference Include="Google.VersionHandler">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
     </Reference>
     <Reference Include="Google.VersionHandlerImpl_v1.2.122.0">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.122.0.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.122.0.dll</HintPath>
     </Reference>
     <Reference Include="MessageGeneration">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Assets/RosSharp/Plugins/MessageGeneration.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Assets/RosSharp/Plugins/MessageGeneration.dll</HintPath>
     </Reference>
     <Reference Include="RosBridgeClient">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Assets/RosSharp/Plugins/RosBridgeClient.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Assets/RosSharp/Plugins/RosBridgeClient.dll</HintPath>
     </Reference>
     <Reference Include="Urdf">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Assets/RosSharp/Plugins/Urdf.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Assets/RosSharp/Plugins/Urdf.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json.Bson">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Assets/RosSharp/Plugins/External/Newtonsoft.Json.Bson.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Assets/RosSharp/Plugins/External/Newtonsoft.Json.Bson.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Assets/RosSharp/Plugins/External/Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Assets/RosSharp/Plugins/External/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Assets/RosSharp/Plugins/External/websocket-sharp.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Assets/RosSharp/Plugins/External/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Assets/RosSharp/Plugins/Microsoft/Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Assets/RosSharp/Plugins/Microsoft/Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
     <Reference Include="System.Buffers">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Assets/RosSharp/Plugins/Microsoft/System.Buffers.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Assets/RosSharp/Plugins/Microsoft/System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="System.Memory">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Assets/RosSharp/Plugins/Microsoft/System.Memory.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Assets/RosSharp/Plugins/Microsoft/System.Memory.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Assets/RosSharp/Plugins/Microsoft/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Assets/RosSharp/Plugins/Microsoft/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="System.Text.Encodings.Web">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Assets/RosSharp/Plugins/Microsoft/System.Text.Encodings.Web.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Assets/RosSharp/Plugins/Microsoft/System.Text.Encodings.Web.dll</HintPath>
     </Reference>
     <Reference Include="System.Text.Json">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Assets/RosSharp/Plugins/Microsoft/System.Text.Json.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Assets/RosSharp/Plugins/Microsoft/System.Text.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading.Channels">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Assets/RosSharp/Plugins/Microsoft/System.Threading.Channels.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Assets/RosSharp/Plugins/Microsoft/System.Threading.Channels.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading.Tasks.Extensions">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Assets/RosSharp/Plugins/Microsoft/System.Threading.Tasks.Extensions.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Assets/RosSharp/Plugins/Microsoft/System.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.1f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -720,46 +720,46 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/thoma/Documents/Unity/Experiment2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/thoma/Documents/Unity/Experiment/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{74399751-C342-5801-4FB6-D818362EA213}</Project>
+      <Project>{F9EFDE59-142D-66D3-5474-AC3F44C9CBD8}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="LeapMotion.LeapCSharp.csproj">
-      <Project>{A207F6E3-E61F-A7AC-AB75-6A38D95E4B77}</Project>
+      <Project>{4DB391D1-B9E8-6843-3FE9-9CE6C0255CE8}</Project>
       <Name>LeapMotion.LeapCSharp</Name>
     </ProjectReference>
   </ItemGroup>
