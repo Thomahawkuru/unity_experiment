@@ -5,32 +5,32 @@ https://github.com/Thomahawkuru/panda_experiment
 # Contents
 The unity project consists of the following scenes with their respective objects and scripts::  
   
-Startup: 
+Startup:   
 - Experiment Manager 	(Experiment Manager)
 - Varjo Leap Rig 		(Varjo Manager, Varjo Mixed Reality) 
   - VarjoCamera 	(Camera, Leap XR Service Provider)
 - Directional Light 		(Light)
-Calibration
+Calibration  
 - Varjo Leap Rig		(Varjo Manager, Varjo Mixed Reality)
  - VarjoCamera 	(Camera, Leap XR Service Provider)
  - HandModels	(Hand Model Manager)
 - Data Logger		(Request Calibration, Logger)
 - Directional Light 		(Light)
-Scene1 (separated condition)
+Scene1 (separated condition)  
 - RosConnector		(RosConnector, 6 Data subscribers, Velcmd Publisher) 		
 - Varjo Leap Rig		(Varjo Manager, Varjo Mixed Reality)
  - VarjoCamera	(Camera, Leap XR Service Provider)
 - Data Logger		(Request Calibration, Logger)
 - Screen			(Mesh renderer)
 - Directional Light 		(Light)
-Scene2 (situated condition)
+Scene2 (situated condition)  
 - RosConnector		(RosConnector, 6 Data subscribers, Velcmd Publisher)
 - Varjo Leap Rig		(Varjo Manager, Varjo Mixed Reality)
  - VarjoCamera	(Camera, Leap XR Service Provider)
 - Data Logger		(Request Calibration, Logger)
 - Screen			(Mesh renderer)
 - Directional Light 		(Light)
-The end
+The end  
 - VarjoCamera		(Camera, Leap XR Service Provider)
 - Directional Light 		(Light)
 
