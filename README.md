@@ -1,5 +1,5 @@
 # unity_experiment
-Unity project for gesture based teloepration of the panda_experiment package:  
+Unity project for gesture based teleopration of the panda_experiment package:  
 https://github.com/Thomahawkuru/panda_experiment
 
 # Contents
